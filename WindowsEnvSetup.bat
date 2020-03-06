@@ -4,12 +4,12 @@ set InstallPath=%userprofile%\Downloads\WindowsEnvironmentSetup
 rem create a directory only if the WindowsSetup folder does not exist.
 if not exist "%InstallPath%\" mkdir %InstallPath%
 
-bitsadmin.exe /transfer "MozillaFirefox" https://www.mozilla.org/fr/firefox/download/thanks/ %InstallPath%\MozillaFirefox.exe
-bitsadmin.exe /transfer "f.lux" https://justgetflux.com/dlwin.html %InstallPath%\flux.exe
+bitsadmin.exe /transfer "MozillaFirefox" https://dl.clubic.com/generate/qGgph849hGTFyb1E-yLLjw/5e63d8ec/soft/logiciel/mozilla-firefox_73-0-1_fr_11003_32.exe %InstallPath%\MozillaFirefox.exe
+bitsadmin.exe /transfer "flux" https://dl.clubic.com/generate/bl6g1x6h5ykiKEYlVCxKxw/5e63ce2a/soft/logiciel/f-lux_4-111_fr_278130.exe %InstallPath%\flux.exe
 bitsadmin.exe /transfer "VLC" https://get.videolan.org/vlc/3.0.8/win64/vlc-3.0.8-win64.exe %InstallPath%\VLC.exe
 bitsadmin.exe /transfer "AdobeReader" https://dl.clubic.com/generate/_Aoo6djtQCeA3_rMNmfkSA/5e627bd3/soft/logiciel/adobe-reader_11-0_fr_13628.exe %InstallPath%\AdobeReader.exe
 bitsadmin.exe /transfer "VSCode" https://aka.ms/win32-x64-user-stable %InstallPath%\VisualStudioCode.exe
-bitsadmin.exe /transfer "Git" https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/Git-2.24.1.2-64-bit.exe %InstallPath%\Git.exe
+bitsadmin.exe /transfer "Git" https://github.com/git-for-windows/git/releases/download/v2.16.2.windows.1/Git-2.16.2-32-bit.exe %InstallPath%\Git.exe
 bitsadmin.exe /transfer "GitKraken" https://release.gitkraken.com/win64/GitKrakenSetup.exe %InstallPath%\GitKraken.exe
 bitsadmin.exe /transfer "SublimeText" https://dl.clubic.com/generate/JlQe_8LyY4FX4HAzvIZcHA/5e628f9d/soft/logiciel/sublime-text_3-2-2-3211_en_430809_64.exe %InstallPath%\SublimeText.exe
 bitsadmin.exe /transfer "Chrome" http://dl.google.com/chrome/install/375.126/chrome_installer.exe %InstallPath%\GoogleChrome.exe
