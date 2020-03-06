@@ -6,7 +6,7 @@ A batch script to reduce the hassle of downloading all software when reinstallin
 
 ### Prerequisites
 
-Microsoft Windows Operation System
+Microsoft Windows Operating System:
 
 * Windows 7 
 * Windows 8 
