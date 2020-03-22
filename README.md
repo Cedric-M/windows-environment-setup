@@ -1,6 +1,22 @@
 # windows-environment-setup
 A batch script to reduce the hassle of downloading all software when reinstalling the Windows OS regardless of version.
 
+The setups of the downloaded software are among the most used: 
+* Web browsers (Mozilla Firefox, Google Chrome)
+* Email client (Mozilla Thunderbird)
+* Multimedia player (VLC)
+* Different desktop utilities (Adobe Reader, f.lux, 7zip, Gimp)
+* Text Editors (Sublime Text, Visual Studio Code)
+* Virtualization tools (Oracle VirtualBox, VMWare WorkstationPro)
+* Versioning tools (GitKraken)
+* Messaging application (Telegram)
+* Security tools (Malwarebytes)
+* Virtual Private Networks (PIAVPN, NordVPN)
+* Video Games (Steam, Discord)
+
+*Please note that I am open to any suggestions and that this list is bound to evolve according to your feedback.*
+
+
 ## Getting Started
 
 
@@ -22,7 +38,7 @@ In order to run the script, you can either click on it, or use the following com
 ```
 .\WindowsEnvSetup.bat
 ```
-Note: It is now possible to simply launch the .exe for an easier use by double clicking on it.
+Note: It is now possible to simply **launch the .exe** for an easier use **by double clicking on it.**
 
 ## Deployment
 
