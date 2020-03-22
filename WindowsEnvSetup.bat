@@ -18,7 +18,6 @@ bitsadmin.exe /transfer "OracleVirtualBox" https://download.virtualbox.org/virtu
 bitsadmin.exe /transfer "Telegram" https://dl.clubic.com/generate/fSVVxHkh55yOsfjEe4YRiA/5e628e3a/soft/logiciel/telegram_1-9-13_en_432171.exe %InstallPath%\Telegram.exe
 bitsadmin.exe /transfer "Steam" https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe %InstallPath%\SteamSetup.exe
 bitsadmin.exe /transfer "Discord" https://discordapp.com/api/download?platform=win %InstallPath%\Discord.exe
-bitsadmin.exe /transfer "Spotify" http://download.spotify.com/Spotify.exe %InstallPath%\Spotify.exe
 bitsadmin.exe /transfer "Malwarebytes" https://downloads.malwarebytes.com/file/mb-windows %InstallPath%\Malwarebytes.exe
 bitsadmin.exe /transfer "7zip" https://www.7-zip.org/a/7z1900.exe %InstallPath%\7zip.exe
 bitsadmin.exe /transfer "NordVPN" https://downloads.nordcdn.com/apps/windows/10/NordVPN/latest/NordVPNSetup.exe %InstallPath%\NordVPN.exe
@@ -28,5 +27,6 @@ bitsadmin.exe /transfer "Gimp" https://download.gimp.org/mirror/pub/gimp/v2.10/w
 rem May not works on all systems :
 bitsadmin.exe /transfer "Git" https://git-scm.com/download/win %InstallPath%\Git.exe
 bitsadmin.exe /transfer "Dropbox" https://www.dropbox.com/downloading?type=full %InstallPath%\Dropbox.exe
+rem bitsadmin.exe /transfer "Spotify" http://download.spotify.com/Spotify.exe %InstallPath%\Spotify.exe
 
 rem pause
