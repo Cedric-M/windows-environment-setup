@@ -22,7 +22,7 @@ In order to run the script, you can either click on it, or use the following com
 ```
 .\WindowsEnvSetup.bat
 ```
-
+Note: It is now possible to simply launch the .exe for an easier use by double clicking on it.
 
 ## Deployment
 
